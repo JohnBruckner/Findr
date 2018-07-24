@@ -20,7 +20,7 @@ public class MainController {
     private StudentRepository studentRepository;
     private GroupRepository groupRepository;
 
-    @GetMapping(path="/add") // Map ONLY GET Requests
+    @GetMapping(path="/addStudent") // Map ONLY GET Requests
     public @ResponseBody String addNewStudent (@RequestParam String name
             , @RequestParam String email) {
         // @ResponseBody means the returned String is the response, not a view name
@@ -33,7 +33,7 @@ public class MainController {
         return "Saved";
     }
 
-    @GetMapping(path="/add")
+    @GetMapping(path="/addGroup")
     public @ResponseBody String addNewGroup (@RequestParam String name, @RequestParam String email) {
         Group n = new Group();
         n.setName(name);
