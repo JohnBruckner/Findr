@@ -1,4 +1,4 @@
-database/setup/User.class
-database/setup/UserRepository.class
+database/setup/StudentRepository.class
 database/setup/MainController.class
 database/setup/Application.class
+database/setup/Student.class
