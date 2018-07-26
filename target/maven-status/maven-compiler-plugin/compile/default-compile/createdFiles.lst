@@ -1,4 +1,1 @@
-database/setup/StudentRepository.class
-database/setup/MainController.class
-database/setup/Application.class
-database/setup/Student.class
+com/findr/Application.class

@@ -1,4 +1,4 @@
-package database.setup;
+package com.findr.database.impl;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -8,12 +8,12 @@ import javax.persistence.Id;
 
 @Entity
 public class Student {
-	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
 //    private String s_number;
-	private Integer id;
-	private String name;
-	private String email;
+    private Integer id;
+    private String name;
+    private String email;
 //    private String p_hash;
 
 
@@ -26,29 +26,29 @@ public class Student {
 //    }
 
 
-	public Integer getId() {
-		return id;
-	}
+    public Integer getId() {
+        return id;
+    }
 
-	public void setId(Integer id) {
-		this.id = id;
-	}
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public String getEmail() {
-		return email;
-	}
+    public String getEmail() {
+        return email;
+    }
 
-	public void setEmail(String email) {
-		this.email = email;
-	}
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
 //    public String getP_hash() {
 //        return p_hash;

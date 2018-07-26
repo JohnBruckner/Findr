@@ -1,4 +1,4 @@
-/Users/john/Documents/ComputerScience/WebApps/Findr/src/main/java/database/setup/StudentRepository.java
-/Users/john/Documents/ComputerScience/WebApps/Findr/src/main/java/database/setup/MainController.java
-/Users/john/Documents/ComputerScience/WebApps/Findr/src/main/java/database/setup/Student.java
-/Users/john/Documents/ComputerScience/WebApps/Findr/src/main/java/database/setup/Application.java
+/Users/john/Documents/ComputerScience/WebApps/Findr/src/main/java/com/findr/Application.java
+/Users/john/Documents/ComputerScience/WebApps/Findr/src/main/java/com/findr/database/StudentRepository.java
+/Users/john/Documents/ComputerScience/WebApps/Findr/src/main/java/com/findr/database/impl/Student.java
+/Users/john/Documents/ComputerScience/WebApps/Findr/src/main/java/com/findr/controllers/MainController.java
