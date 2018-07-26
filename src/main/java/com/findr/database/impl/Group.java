@@ -1,36 +1,24 @@
 package com.findr.database.impl;
 
+import org.springframework.data.annotation.Id;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
 
 @Entity
-public class Student {
+public class Group {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer id;
-    private String sNumber;
+    @GeneratedValue(strategy= GenerationType.AUTO)
+    private String id;
     private String name;
     private String email;
-    private String password;
+    private String p_hash;
 
-
-    public String getsNumber() {
-            return sNumber;
-        }
-
-    public void setsNumber(String sNumber) {
-        this.sNumber = sNumber;
-    }
-
-
-    public Integer getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -50,11 +38,11 @@ public class Student {
         this.email = email;
     }
 
-    public String getPassword() {
-        return password;
+    public String getP_hash() {
+        return p_hash;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setP_hash(String p_hash) {
+        this.p_hash = p_hash;
     }
 }
